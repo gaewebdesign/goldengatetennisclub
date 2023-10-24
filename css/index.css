@@ -1,0 +1,178 @@
+
+.body-styler{
+
+      background-color: oldlace;
+      background-color: oldlace;
+      background-color: rgb(213, 71, 158);
+  
+ }
+
+.Back{
+    background-color: rgb(14, 157, 192);
+    
+    background-color: rgb(222, 234, 237);
+
+
+}
+
+.BackGradient{
+
+    background-image: linear-gradient(to  bottom right, rgb(241, 92, 116),rgb(200, 214, 214),rgb(210, 210, 200),rgb(190, 216, 218),rgb(215,205,240),rgb(241,92,116)) ;    
+}    
+
+.BackGradientInput{
+    background-image: linear-gradient(to bottom right ,rgb(210, 200, 180),rgb(210, 210, 200),rgb(190, 216, 218),rgb(190, 216, 218),rgb(215,205,240) ,rgb(215,205,240) , rgb(215, 205, 116) ) ;    
+    background-image: linear-gradient(to top right ,rgb(120, 122, 236),rgb(210, 210, 200),rgb(190, 216, 218),rgb(190, 216, 218),rgb(215,205,240) ,rgb(215,205,240) , rgb(215, 205, 116) ) ;        
+    
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    border-image-source: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 0, 51, 0.5));
+
+
+}
+
+
+
+.border-gradient-purple {
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+  }
+
+
+.BackRainbow{
+
+    background-image: linear-gradient(to bottom right, red, yellow);
+    background-image: linear-gradient(to  bottom right, red,orange,yellow,green,blue,indigo,violet);
+    background-image: linear-gradient(to  bottom right, rgb(241, 92, 116),rgb(200, 214, 214),rgb(210, 210, 200),rgb(190, 216, 218),rgb(215,205,240),rgb(241,92,116)) ;
+
+
+}
+.BackDebug{
+    background-color: rgb(219, 155, 220);
+
+    
+}
+
+.Membership{
+
+   font-size: 1.55em;
+
+}
+
+
+.Title{
+
+    position: center;
+    font-size: 48px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(15, 73, 207);
+}
+
+
+.LeftBar{
+
+    color: white;
+    background-color: rgb(102, 102, 157);
+    background-color: rgb(75, 9, 229);
+
+
+    font-size: 15px;
+    font-style: bold;
+}
+
+.RightBar2{
+
+    color: white;
+    background-color: rgb(51, 51, 241);
+    font-size: 14px;
+
+}
+
+.RightCenter{
+
+
+    display: flex;
+    align-items: center;
+    background-color: rgb(254,254,254);
+
+}
+
+   
+    
+
+
+.Link{
+    color: white
+}
+
+.Link_Red{
+    color: rgb(211, 40, 40);
+    font-size: 1.25em;
+
+}
+
+.Memb_Color{
+    color: rgb(66, 139, 223);
+    font-size: 1.1em;
+}
+
+.col-sm-3half, .col-sm-8half {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+.ResponsiveImage {
+    object-fit: contain;
+    width: 100%;
+    height: auto
+
+
+}
+
+ h1{
+     display:inline;
+ }
+
+ @media    (min-width: 367px) and  (max-width: 724px){
+
+    h1{
+        font-size: 22px;
+
+    }
+}
+
+@media    (max-width: 366px){
+
+    h1{
+        font-size: 16px;
+
+    }
+}
+
+
+.NavLink a:hover {
+   
+    font-size: 1.2em;
+    
+}
+
+
+/*
+
+a{
+  color: rgb(16, 224, 228);
+  font-size: 1.5em;
+}
+
+
+a:link {
+    display: block;
+    font-size: 1em;
+    outline: thin solid;
+}
+
+
+*/
