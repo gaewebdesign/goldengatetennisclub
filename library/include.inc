@@ -163,14 +163,15 @@ function Configure()
         $USER = "root";      // on my localhost
         $PASSWORD = "tomato1349";
         $DB= "southb56_ggtc";
+        $DB = "golden19_ggtc";
            
 
-        if(strstr($_SERVER["SERVER_NAME"],"south")){
-          $USER  = "southb56_ggtc";    // inmotion
-          $PASSWORD="pear3722";
+        if(strstr($_SERVER["SERVER_NAME"],"gold")){
+          $USER  = "golden19_ggtc";    // inmotion
+          $PASSWORD="tomato1349";
         } 
 
- //       echo($HOST." -- ".$USER." - ".$DB." - ".$PASSWORD." <br>" );
+        echo($HOST." -- ".$USER." - ".$DB." - ".$PASSWORD." <br>" );
 
         $con = mysqli_connect($HOST,$USER, $PASSWORD);
 
