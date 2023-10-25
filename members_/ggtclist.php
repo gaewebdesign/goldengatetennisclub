@@ -118,7 +118,11 @@
     function membership_json( $URL ){
 
                 $ch = curl_init( $URL );
-                curl_setopt( $ch  , CURLOPT_POSTFIELDS, $payload );
+
+ //   Commenting payload --- is it needed?   on first A2 Port
+ //          curl_setopt( $ch  , CURLOPT_POSTFIELDS, $payload );
+ //   Commenting payload --- is it needed?
+ 
                 curl_setopt( $ch  , CURLOPT_RETURNTRANSFER, true );
       
                 $response = curl_exec($ch);
