@@ -1,1 +1,34 @@
+
+RewriteRule ^/membership$ membership.html  [NC,QSA,L]
+RewriteRule ^membership$  membership.html  [NC,QSA,L]
+
+RewriteRule ^/events$ events.html  [NC,QSA,L]
+RewriteRule ^events$  events.html  [NC,QSA,L]
+
+RewriteRule ^members$  members.html  [NC,QSA,L]
+
+RewriteRule ^info$  info.html  [NC,QSA,L]
+
+RewriteRule ^join$  join.html  [NC,QSA,L]
+
+RewriteRule ^photos  photos.html  [NC,QSA,L]
+RewriteRule ^archive  archive.html  [NC,QSA,L]
+RewriteRule ^resources  resources.html  [NC,QSA,L]
+RewriteRule ^map map.html  [NC,QSA,L]
+
+
+
+RewriteRule ^address$ address.php [NC,QSA,L]
+RewriteRule ^email$ email.html [NC,QSA,L]
+
+RewriteRule ^cancel from_cancel.php  [NC,QSA,L]
+RewriteRule ^done from_return.php  [NC,QSA,L]
+
+RewriteRule ^notify$ notify.php  [NC,QSA,L]
+RewriteRule ^notify/([\d]*)$ notify.php?transaction=$1  [NC,QSA,L]
+
+
+
+
+
 AddHandler application/x-httpd-ea-php56 .htm .html .shtml
