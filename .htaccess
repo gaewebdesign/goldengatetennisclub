@@ -16,7 +16,7 @@ RewriteRule ^archive  archive.html  [NC,QSA,L]
 RewriteRule ^resources  resources.html  [NC,QSA,L]
 RewriteRule ^map map.html  [NC,QSA,L]
 
-
+RewriteRule ^debug$ debug.html  [NC,QSA,L]
 
 RewriteRule ^address$ address.php [NC,QSA,L]
 RewriteRule ^email$ email.html [NC,QSA,L]
@@ -29,6 +29,6 @@ RewriteRule ^notify/([\d]*)$ notify.php?transaction=$1  [NC,QSA,L]
 
 
 
-
+#AddHandler application/x-httpd-php .html .htm
 
 AddHandler application/x-httpd-ea-php56 .htm .html .shtml
