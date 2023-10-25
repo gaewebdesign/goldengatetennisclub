@@ -21,7 +21,7 @@ define("RES_FEE" , "0.05" );
 define("NONRES_SINGLE_FEE" , "0.10" );
 define("NONRES_FAMILY_FEE" , "0.15" );
 
-define("MEMBERSHIP_FEE" , "0.02" );
+define("MEMBERSHIP_FEE" , "40" );
 
 /*
 define("RETURN_URL","http://www.sctennisclub.org/signup/done");
