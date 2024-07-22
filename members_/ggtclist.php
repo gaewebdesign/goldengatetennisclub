@@ -67,11 +67,12 @@
     function ggtclist($YEAR){
 
 
-         $con = Configure();
+         $con = DBMembership();
 
          $query = "select * from ".TABLE_PAYPAL." where year>=$YEAR order by year,lname limit 3000 ";
  //        $query = "select * from ".TABLE_PENDING." where year=$YEAR order by date desc limit 30 ";
-         TEXT($query);
+//        echo($query);
+//        TEXT($query);
 
          $icon="";
          $qr=mysqli_query($con,$query);
@@ -160,8 +161,9 @@
    }
 
     }
-            ggtclist_new();
-//          ggtclist(YEAR);
+//            ggtclist_new();
+
+         ggtclist(YEAR-3);
             
 
       
