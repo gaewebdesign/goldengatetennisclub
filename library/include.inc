@@ -169,6 +169,8 @@ function Configure()
         if(strstr($_SERVER["SERVER_NAME"],"gold")){
           $USER  = "golden19_ggtc";    // inmotion
           $PASSWORD="tomato1349";
+          $PASSWORD="mona.ramsey.1349";
+
         } 
 
 //        TEXT($HOST." -- ".$USER." - ".$DB." - ".$PASSWORD." <br>" );
