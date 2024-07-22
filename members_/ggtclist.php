@@ -19,7 +19,7 @@
 
 
 
-<table class="table table-striped ">
+<table class="table table-striped sortable">
 <thead>
 <tr>
     <th scope="col">Year </th>

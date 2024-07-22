@@ -167,6 +167,7 @@ function Configure()
            
 
         if(strstr($_SERVER["SERVER_NAME"],"gold")){
+         // must add user to database with privileges
 
           $HOST = "localhost";
           $USER  = "golden19_ggtc";    // inmotion
