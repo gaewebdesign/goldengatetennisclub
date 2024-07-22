@@ -77,8 +77,11 @@ tr {
   <tr>
   <th style="width:20%">Name</th>
   <th style="width:10%">NTRP</th>
+
+  <!--
   <th style="width:20%">Name</th>
   <th style="width:10%">NTRP</th>
+  -->
   <th style="width:10%">Date</th>
 
   </tr>
