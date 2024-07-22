@@ -16,8 +16,10 @@ tr {
         <tr>
         <th style="width:20%">Name</th>
         <th style="width:10%">NTRP</th>
+<!--
         <th style="width:20%">Name</th>
         <th style="width:10%">NTRP</th>
+-->
         <th style="width:10%">Date</th>
 
         </tr>
@@ -43,12 +45,13 @@ tr {
                echo "<td>";
                echo $row["gender1"].$row["ntrp1"];
  
+ /*
                echo "<td>";
                echo $row["fname2"]." ".$row["lname2"];
  
                echo "<td>";
                echo $row["gender2"].$row["ntrp2"];
- 
+ */
                echo "<td>";
                $custom = $row[DATE];
                $dt = new DateTime("@$custom");
