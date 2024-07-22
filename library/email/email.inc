@@ -11,12 +11,12 @@ $message = "Thanks for registering your USTA team.<br/>  The board will meet and
 $message .=  "<p>";
 $message .= "For more information, or questions contact the USTA Coordinator at <br/>";
 
-$message .= "at ustarep@sctennisclub.org";
+$message .= "at webmasterp@goldengatetennisclub.org";
 $message .=  "<hr/>";
 
-$message .=  "Alice Isaacson <br/>";
-$message .=  "USTA Coordinator <br/>";
-$message .=  "Santa Clara Tennis Club";
+$message .=  "Dichoun Kwan <br/>";
+$message .=  "President <br/>";
+$message .=  "Golden Gate Tennis Club";
 
 
 //emailer( $subject, $message );
@@ -31,20 +31,20 @@ $mail = new PHPMailer(exceptions: true);
 try {
 
  //     $mail->SMTPDebug = 2;
-      $mail->Username = "webmaster@sctennisclub.org";
+      $mail->Username = "webmaster@goldengatetennisclub.org";
 //      $mail->Username = "santaclarawebmaster@gmail.com";
-      $mail->Password = "webmaster.3722";
+      $mail->Password = "janet.95129";
       $mail->SMTPSecure = 'tls';
 
       $mail->Port = 587;      
-      $mail->setFrom( "webmaster@sctennisclub.org" , "Santa Clara Tennis Club" ) ; 
+      $mail->setFrom( "webmaster@goldengatetennisclub.org" , "Golden Gate Tennis Club" ) ; 
       
  //   $mail->setFrom( "tennis.mutt@sctennisclub.org" , "Santa Clara Tennis Club" ) ; 
 
 //    $mail->setFrom( $_FROMEMAIL , $_FROMNAME ) ; 
 
       
-      $mail->addAddress( "santaclarawebmaster@gmail.com" ) ; 
+      $mail->addAddress( "tennis.mutt@@gmail.com" ) ; 
       $mail->addAddress( $_TOEMAIL ) ; 
       $mail->addAddress( $_TOEMAIL2 ) ; 
 
