@@ -167,7 +167,11 @@ function Configure()
            
 
         if(strstr($_SERVER["SERVER_NAME"],"gold")){
+
+          $HOST = "localhost";
           $USER  = "golden19_ggtc";    // inmotion
+          $USER  = "golden19_roger";    // A2
+
           $PASSWORD="tomato1349";
           $PASSWORD="mona.ramsey.1349";
 
