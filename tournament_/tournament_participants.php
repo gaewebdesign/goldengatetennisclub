@@ -24,7 +24,7 @@ tr {
       </thead>
       <tbody>
            <p>
-           <h4>Mx 7.5 </h4> 
+           <h4> M4.0 </h4> 
            <p>
 
            <?php
@@ -59,7 +59,7 @@ tr {
               }
              }
 
-             tournylist("7.5");
+             tournylist("4.0");
 
 
            ?>
@@ -82,12 +82,12 @@ tr {
 </thead>
 <tbody>
      <p>
-     <h4>Mx 6.5 </h4> 
+     <h4>M 3.5 </h4> 
      <p>
 
      <?php
 
-             tournylist("6.5");
+             tournylist("3.5");
 
       ?>
 

@@ -90,7 +90,9 @@ function signedUp($theTABLE,$fname1,$lname1,$email1,$gender1,$ntrp1,$fname2,$lna
 
     echo("<h1>Signed Up </h1> " );
     echo("<h3>");
-    echo("$fname1 $lname1   / $fname2 $lname2   $division");
+    echo("<center>");
+    echo("$fname1 $lname1  $division");
+    echo("</center>");
     echo("</h3>");
 
 
