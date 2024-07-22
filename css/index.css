@@ -1,4 +1,8 @@
 
+:root{
+
+    --COLORTHEME: rgb(143, 206, 246);
+}
 .body-styler{
 
       background-color: oldlace;
@@ -11,7 +15,8 @@
     background-color: rgb(14, 157, 192);
     
     background-color: rgb(222, 234, 237);
-
+    background-color: rgb(117, 225, 247);
+    background-color: var(--COLORTHEME);
 
 }
 
