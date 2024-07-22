@@ -28,44 +28,29 @@ $theTABLE = "tourny";
 
 
 $fname1 = $_POST["fname1"];
-$fname2 = $_POST["fname2"];
-
 $lname1 = $_POST["lname1"];
-$lname2 = $_POST["lname2"];
-
 $email1 = $_POST["email1"];
-$email2 = $_POST["email2"];
-
 $event = $gender1 = $ntrp1 = "-";
-$gender2 = $ntrp2 = "-";
+$division = $_POST["division"];
+$gender1 =$_POST["gender1"];
+$ntrp1 =$_POST["ntrp1"];
 
+$gender2 = $ntrp2 = "-";
 $team=$mtype=$date=$insignia=$payment=$custom=$opt=$pwd="";
 
-$division = $_POST["division"];
+$fname2=$lname2=$email2=$gender2=$ntrp2="";
 
-$gender1 =$_POST["gender1"];
+/*
+$fname2 = $_POST["fname2"];
+$lname2 = $_POST["lname2"];
+$email2 = $_POST["email2"];
 $gender2 =$_POST["gender2"];
-
-$ntrp1 =$_POST["ntrp1"];
 $ntrp2 =$_POST["ntrp2"];
-
-
+*/
 
 $year=2024;
 
 $theTABLE = "tourny";
-
-//$fname1="Tiger";
-//$lname1="Woods";
-//$email1="roy.molseee@gmail.com";
-$gender1="M";
-$ntrp1="4.0";
-
-//$fname2="Jeannette";
-//$lname2="Hoggart";
-//$email2="queenbee95051@@yahoo.com";
-$gender2="W";
-$ntrp2="3.5";
 
 
 $date = time()-60*60*7;
