@@ -178,7 +178,7 @@ function Configure()
 
         } 
 
-        TEXT($HOST." -- ".$USER." - ".$DB." - ".$PASSWORD." <br>" );
+        //TEXT($HOST." -- ".$USER." - ".$DB." - ".$PASSWORD." <br>" );
 
         $con = mysqli_connect($HOST,$USER, $PASSWORD);
 
