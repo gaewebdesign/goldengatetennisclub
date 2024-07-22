@@ -34,7 +34,7 @@ tr {
               $TABLE_TOURNY = "tourny";
               $YEAR = 2024;
               $query = "select * from ".$TABLE_TOURNY." where year=$YEAR and division regexp(\"$draw\") order by date ";
-//              echo $query;
+              echo $query;
 
               $con = Configure();
  
@@ -88,7 +88,7 @@ tr {
 </thead>
 <tbody>
      <p>
-     <h4>M 3.5 </h4> 
+     <h4>M3.5 </h4> 
      <p>
 
      <?php
