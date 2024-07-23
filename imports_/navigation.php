@@ -43,9 +43,9 @@ https://getbootstrap.com/docs/5.1/getting-started/introduction/
 
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="./index.phtml">Home</a> 
-      <a class="navbar-brand" href="./email.phtml">Members</a>
-      <a class="navbar-brand" href="./email_tournament.phtml">Tournament</a>
+      <a class="navbar-brand" href="./index.html">Home</a> 
+      <a class="navbar-brand" href="./email.html">Members</a>
+      <a class="navbar-brand" href="./email_tournament.html">Tournament</a>
 
 
       <div class="dropdown" >
