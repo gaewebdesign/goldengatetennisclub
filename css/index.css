@@ -2,6 +2,8 @@
 :root{
 
     --COLORTHEME: rgb(143, 206, 246);
+    --COLORTHEME_INPUT: rgb(130, 200, 240);
+
 }
 .body-styler{
 
@@ -23,15 +25,19 @@
 .BackGradient{
 
     background-image: linear-gradient(to  bottom right, rgb(241, 92, 116),rgb(200, 214, 214),rgb(210, 210, 200),rgb(190, 216, 218),rgb(215,205,240),rgb(241,92,116)) ;    
+
+
 }    
 
-.BackGradientInput{
+.BackInput{
+/*
     background-image: linear-gradient(to bottom right ,rgb(210, 200, 180),rgb(210, 210, 200),rgb(190, 216, 218),rgb(190, 216, 218),rgb(215,205,240) ,rgb(215,205,240) , rgb(215, 205, 116) ) ;    
     background-image: linear-gradient(to top right ,rgb(120, 122, 236),rgb(210, 210, 200),rgb(190, 216, 218),rgb(190, 216, 218),rgb(215,205,240) ,rgb(215,205,240) , rgb(215, 205, 116) ) ;        
     
     border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
     border-image-source: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 0, 51, 0.5));
-
+*/
+    background-color: var(--COLORTHEME_INPUT);
 
 }
 
