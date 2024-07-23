@@ -18,7 +18,7 @@ include "./library/emailer.php";
   <div class="col-md-6">
     <div class="input-group">
     <span class="input-group-text" id="inputGroupPrepend1" name="fname">First Name</span>
-    <input type="text" class="form-control BackGradientInput" id="validationDefault01"  name="fname" required>
+    <input type="text" class="form-control BackInput" id="validationDefault01"  name="fname" required>
      </div>
   </div>
 
@@ -26,7 +26,7 @@ include "./library/emailer.php";
   <div class="col-md-6">
     <div class="input-group">
     <span class="input-group-text" id="inputGroupPrepend2" >Last Name</span>
-    <input type="text" class="form-control BackGradientInput" id="validationDefault02" name="lname" required>
+    <input type="text" class="form-control BackInput" id="validationDefault02" name="lname" required>
     </div>
   </div>
 
@@ -36,7 +36,7 @@ include "./library/emailer.php";
 
 <div class="input-group">
 <span class="input-group-text" id="inputGroupPrepend2b">Address</span>
- <input type="text" class="form-control  BackGradientInput" id="validationDefault02ba" name="address" required>
+ <input type="text" class="form-control  BackInput" id="validationDefault02ba" name="address" required>
 </div>
 
 </div>
@@ -46,7 +46,7 @@ include "./library/emailer.php";
 
     <div class="input-group">
     <span class="input-group-text" id="inputGroupPrepend3">City</span>
-     <input type="text" class="form-control  BackGradientInput" id="validationDefault03" name="city" required>
+     <input type="text" class="form-control  BackInput" id="validationDefault03" name="city" required>
    </div>
 
 </div>
@@ -55,7 +55,7 @@ include "./library/emailer.php";
 
 <div class="input-group">
 <span class="input-group-text" id="inputGroupPrepend4">Zip</span>
- <input type="text" class="form-control  BackGradientInput" id="validationDefault04" name="zip" required>
+ <input type="text" class="form-control  BackInput" id="validationDefault04" name="zip" required>
 </div>
 
 <p>
@@ -106,7 +106,7 @@ include "./library/emailer.php";
 
 <div class="input-group">
 <span class="input-group-text" id="inputGroupPrepend7">Email</span>
- <input type="email" class="form-control  BackGradientInput" id="validationDefault07" name="email" required>
+ <input type="email" class="form-control  BackInput" id="validationDefault07" name="email" required>
 </div>
 
 </div>
@@ -117,13 +117,23 @@ include "./library/emailer.php";
     <p>
    </div>
 
+
+
+
    <div class="col-md-9">
    <span><h4 style="color:rgb(25, 0, 255)">Select one: </h4></span> 
 
-   <?php
+  <!-- ************************** -->
+  <?php
          include "join_/joinfees.php";
            
-   ?>
+    ?>
+<!-- ************************** -->
+
+
+
+<!-- ************************** -->
+
 
 
   </div>
