@@ -44,9 +44,14 @@ https://getbootstrap.com/docs/5.1/getting-started/introduction/
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="./index.html">Home</a> 
-      <a class="navbar-brand" href="./email.html">Members</a>
-      <a class="navbar-brand" href="./email_tournament.html">Tournament</a>
+      <a class="navbar-brand" href="./membership.html">Membership</a>
 
+      <a class="navbar-brand" href="./members.html">Members</a>
+      <a class="navbar-brand" href="./events.html">Events</a>
+      <a class="navbar-brand Link_Red" href="./join.html">Join</a>
+      <a class="navbar-brand" href="./photos.html">Photos</a>
+      <a class="navbar-brand" href="./archive.html">Archive</a>
+  <!-- <a class="navbar-brand" href="./resources.html">Resources</a>  -->
 
       <div class="dropdown" >
           <a class="dropdown-toggle"  id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">

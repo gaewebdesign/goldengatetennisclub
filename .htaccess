@@ -27,7 +27,7 @@ RewriteRule ^done from_return.php  [NC,QSA,L]
 RewriteRule ^notify$ notify.php  [NC,QSA,L]
 RewriteRule ^notify/([\d]*)$ notify.php?transaction=$1  [NC,QSA,L]
 
-
+RewriteRule ^new$ new.html  [NC,QSA,L]
 
 #AddHandler application/x-httpd-php .html .htm
 
