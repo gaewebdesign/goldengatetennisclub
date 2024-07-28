@@ -33,7 +33,7 @@ tr {
              function tournylist($draw){
               $TABLE_TOURNY = "tourny";
               $YEAR = 2024;
-              $query = "select * from ".$TABLE_TOURNY." where year=$YEAR and division regexp(\"$draw\") order by lname ";
+              $query = "select * from ".$TABLE_TOURNY." where year=$YEAR and division regexp(\"$draw\") order by lname1 ";
 //              echo $query;
 
               $con = Configure();
