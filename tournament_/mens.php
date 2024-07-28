@@ -6,14 +6,14 @@
 
  <ul class="round">
    Quarter-Finals
-   <div class="small">Finish by 9/7/2024</div>
+   <div class="small">Finish by 8/11/2024</div>
   </ul>
   <ul class="round">
    Semi-Finals
-   <div class="small">Finish by 9/21/2024</div></ul>
+   <div class="small">Finish by 8/25/2024</div></ul>
   <ul class="round">
    Finals
-   <div class="small">Finish by 10/4/2024</div>
+   <div class="small">Finish by 9/8/2024</div>
   </ul>
   
 </main>

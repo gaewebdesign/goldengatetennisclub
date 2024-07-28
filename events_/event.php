@@ -128,6 +128,6 @@ include "./library/emailer.php";
 -->
   <div class="col-12"> &nbsp;</div>
   <div class="col-12">
-    <button class="btn btn-primary" disabled=true type="submit">Go to Paypal</button>
+    <button class="btn btn-primary" disabled=true type="submit">Thanks for playing!</button>
   </div>
 </form>
