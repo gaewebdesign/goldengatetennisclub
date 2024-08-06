@@ -38,7 +38,7 @@ $index=1;
 while ($row = mysqli_fetch_assoc($qr)) {
     $_id = $row["_id"];
     $_mtype = $row["mtype"];
-    $_team = $row["fname1"]." ".$row["lname1"];
+    $_team = $row["fname1"][0]." ".$row["lname1"];
 //    $_team .= $row["fname2"]." ".$row["lname2"];
 
 
