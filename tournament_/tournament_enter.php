@@ -105,7 +105,7 @@
     <p></p><br/> 
 
     <div class="col-12 mt-2">
-    <button class="btn btn-primary" disabled name="Button" type="submit">Enter Tournament</button>
+    <button class="btn btn-primary" disabled name="Button" type="submit">Entry Period Over</button>
   </div>
 </form>
 
