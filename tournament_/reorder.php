@@ -60,22 +60,15 @@ if( !empty($_GET['mode']) ){
 // print_r($_GET);
 
 
-if($mode == 0){
+if($mode == 1){
 
     echo("reorder M4.0 ");
     reorder( "M4.0");
 
-}else if($mode==1){
+}else if($mode==2){
 
     echo("reorder M3.5");
     reorder( "M3.5");
-
-}else if($mode==2){
-
-
-    setToDefaults( "M4.0");
-    lister( "M4.0");
-
 
 }else if($mode==3){
 
@@ -83,10 +76,16 @@ if($mode == 0){
     setToDefaults( "M4.0");
     lister( "M4.0");
 
+
 }else if($mode==4){
+
 
     setToDefaults( "M3.5");
     lister( "M3.5");
+
+}else if($mode>4){
+
+
 }
 
 

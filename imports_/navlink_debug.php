@@ -69,10 +69,10 @@ https://getbootstrap.com/docs/5.1/getting-started/introduction/
               <li><a class="dropdown-item" href="./tournament.html?draw=3">Draws (M 4.0)</a></li>
               <li><hr class="dropdown-divider" style="border-color:black;"></li>
 -->
-              <li><a class="dropdown-item "  href="./debug_tournament.phtml?mode=0">Reorder M4.0</a></li>
-              <li><a class="dropdown-item "  href="./debug_tournament.phtml?mode=1">Reorder M3.5</a></li>
+              <li><a class="dropdown-item "  href="./debug_tournament.phtml?mode=1">Reorder M4.0</a></li>
+              <li><a class="dropdown-item "  href="./debug_tournament.phtml?mode=2">Reorder M3.5</a></li>
 
-              <li><a class="dropdown-item "  href="./debug_tournament.phtml?mode=2">Set To Default 4.0 </a></li>
+              <li><a class="dropdown-item "  href="./debug_tournament.phtml?mode=3">Set To Default 4.0 </a></li>
               <li><a class="dropdown-item "  href="./debug_tournament.phtml?mode=4">Set To Default 3.5</a></li>
 
 

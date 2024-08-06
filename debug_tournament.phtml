@@ -16,9 +16,8 @@
 
             background-color: rgb(222, 234, 237);
             background-color: rgb(235, 135, 187);
-
-
-}
+            
+      }
       </style>
 
 
@@ -117,28 +116,26 @@
 
            }
             
-            echo("MODE = $mode ******* REORDER*******************");
-           if($mode == 0){
-            $_POST["mode"]=0;
+            echo("MODE = $mode ");
+            if($mode == 0){
+                  echo("$mode");
+            }if($mode == 1){
+            $_POST["mode"]=1;
             echo("$mode");
             include "./tournament_/reorder.php";  
-           }else if($mode == 1) {
-            $_POST["mode"]=1;
-            include "./tournament_/reorder.php";  
-           }else if($mode == 2){
+           }else if($mode == 2) {
             $_POST["mode"]=2;
             include "./tournament_/reorder.php";  
-           }else if($mode == 3){  
+           }else if($mode == 3){
             $_POST["mode"]=3;
             include "./tournament_/reorder.php";  
-           }else if($mode == 4 ){
+           }else if($mode == 4){  
             $_POST["mode"]=4;
             include "./tournament_/reorder.php";  
-
           } else if($mode==99){
 
 
-      }
+          }
 
 
 ?>
