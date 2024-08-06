@@ -34,7 +34,7 @@ tr {
               $TABLE_TOURNY = "tourny";
               $YEAR = 2024;
               $query = "select * from ".$TABLE_TOURNY." where year=$YEAR and division regexp(\"$draw\") order by lname1 ";
-//              echo $query;
+//             echo $query;
 
               $con = Configure();
  
