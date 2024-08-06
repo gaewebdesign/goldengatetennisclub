@@ -33,7 +33,7 @@ $index=1;
 // QUARTER-FINALS
 while ($row = mysqli_fetch_assoc($qr)) {
 
-    $team =  $row["fname1"][0]." ".$row["lname1"]."/".$row["fname2"][0]." ".$row["lname2"];
+    $team =  $row["fname1"][0]." ".$row["lname1"];//."/".$row["fname2"][0]." ".$row["lname2"];
     $mtype[$index] = $row["mtype"];
     $q[$index++] = $team;
 
