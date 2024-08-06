@@ -64,7 +64,7 @@ https://getbootstrap.com/docs/5.1/getting-started/introduction/
               <li><a class="dropdown-item" href="./tournament.html?draw=2">Draws (M4.0)</a></li>
               <li><a class="dropdown-item" href="./tournament.html?draw=3">Draws (M3.5)</a></li>
 
-              <li><hr class="dropdown-divider" style="border-color:black;"></li>
+              <li><hr class="dropdown-divider" style="border-color:blue;"></li>
               <li><a class="dropdown-item "  href="./tournament.html?draw=4">Enter Tournament</a></li>
               <li><a class="dropdown-item "  href="./tournament.html?draw=5">Report 4.0 Scores</a></li>
               <li><a class="dropdown-item "  href="./tournament.html?draw=6">Report 3.5 Scores</a></li>

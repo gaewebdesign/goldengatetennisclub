@@ -14,7 +14,7 @@
 
 
 </head>
-<body class="Back" >
+<body class="BackDebug" >
 <p>
 
 </p>
@@ -97,16 +97,17 @@
            }
 
 
-
+           $mode=0;
            if( !empty($_GET['mode']) ){
             $mode=$_GET["mode"];
                 
            }else{
-            $mode=99;
-            return;
+//            $mode=99;
+            
 
            }
             
+            echo("MODE = $mode **************************");
            if($mode == 0){
             $_POST["mode"]=0;
             echo("$mode");
