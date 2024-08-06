@@ -69,7 +69,9 @@ https://getbootstrap.com/docs/5.1/getting-started/introduction/
               <li><a class="dropdown-item "  href="./tournament.html?draw=5">Report 4.0 Scores</a></li>
               <li><a class="dropdown-item "  href="./tournament.html?draw=6">Report 3.5 Scores</a></li>
 
+<!--
 
+--> 
         </ul>
         </div>
 
