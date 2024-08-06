@@ -41,7 +41,7 @@ tr {
               $qr=mysqli_query($con,$query);
               while ($row = mysqli_fetch_assoc($qr)) {
                echo "<tr><td>";
-               echo $row["fname1"]." ".$row["lname1"];
+               echo $row["fname1"][0].". ".$row["lname1"];
                echo "<td>";
                echo $row["gender1"].$row["ntrp1"];
  
