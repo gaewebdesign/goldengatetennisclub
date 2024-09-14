@@ -92,7 +92,7 @@ while ($row = mysqli_fetch_assoc($qr)) {
  while ($row = mysqli_fetch_assoc($qr)) {
  
           $team = $row["fname1"]." ".$row["lname1"];
-          $team .= "/".$row["fname2"]." ".$row["lname2"];
+  //        $team .= "/".$row["fname2"]." ".$row["lname2"];
           $winner = $team;  //$q[$position];
           $_winner = $row["score3"];
           break;              
