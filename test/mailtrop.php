@@ -1,6 +1,6 @@
 <?php
 
-$to = 'tennis.mutt@gmail.com';
+$to = 'tennis.mutt@gmail.com, santaclarawebmaster@gmail.com';
 $from = 'rogero.tennis@gmail.com';
 $subject = 'Hello!';
 
