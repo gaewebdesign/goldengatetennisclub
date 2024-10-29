@@ -16,7 +16,7 @@
     $result = mail($to, $subject, $message, $headers);
     
     if ($result) {
-        echo 'Success! [$custom]' . PHP_EOL."<br>";
+        echo "Success! [$custom]" . PHP_EOL."<br>";
         echo "from $from to $to ($count) ". PHP_EOL."<br>";
     } else {
         echo 'Error.' . PHP_EOL;
