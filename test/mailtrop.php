@@ -25,7 +25,8 @@
 
     $result=0;
     $to = 'tennis.mutt@gmail.com, santaclarawebmaster@gmail.com, tennis.mutt@gmail.com';
-    $from = 'rogero.tennis@gmail.com';
+    $from = 'rogero.tennis@gmail.com, docker.mutt@gmail.com';
+
 
     $last=0;
     $custom = time()-60*60*7;
