@@ -34,6 +34,7 @@ $result = mail($to, $subject, $message, $headers);
 
 if ($result) {
     echo 'Success!' . PHP_EOL;
+    echo "from $from to $to ". PHP_EOL;
 } else {
     echo 'Error.' . PHP_EOL;
 }
