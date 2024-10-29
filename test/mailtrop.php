@@ -16,8 +16,8 @@
     $result = mail($to, $subject, $message, $headers);
     
     if ($result) {
-        echo 'Success!' . PHP_EOL;
-        echo "from $from to $to ". PHP_EOL;
+        echo 'Success!' . PHP_EOL."<br>";
+        echo "from $from to $to ". PHP_EOL."<br>";
     } else {
         echo 'Error.' . PHP_EOL;
     }
@@ -26,6 +26,7 @@
     $result=0;
     $to = 'tennis.mutt@gmail.com, santaclarawebmaster@gmail.com, tennis.mutt@gmail.com';
     $from = 'rogero.tennis@gmail.com, docker.mutt@gmail.com';
+    $from = 'nodejs.mutt@gmail.com';
 
 
     $last=0;
@@ -38,5 +39,14 @@
         checker($to, $from , $date);
 
     }        
+
+
+
+
+
+
+
+
+
 
 
