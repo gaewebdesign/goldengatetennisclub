@@ -34,11 +34,11 @@
     $dt = new DateTime("@$custom");
     $date = ltrim($dt->format('m/d/Y H:i:s '),0);
 
-    while($last++ < 30){
+    do{
     
         checker($to, $from , $date , $last);
 
-    }        
+    }while($last++ < 5);       
 
 
 
