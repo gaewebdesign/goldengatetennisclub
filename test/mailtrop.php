@@ -7,7 +7,7 @@
     $headers['MIME-Version'] = 'MIME-Version: 1.0';
     $headers['Content-type'] = 'text/html; charset=iso-8859-1';
 
-    $subject = "EMAIL Check $date [$custom] ($count)";
+    $subject = "EMAIL Check $date ($count)";
     $message = "[$custom] PHP program to programtically send multiple copies of an email to one address within a tight loop\n";
     $message .= "making it appear that several copies are sent at once, but they're actually sent separately\n ";
 
