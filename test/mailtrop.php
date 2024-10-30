@@ -38,7 +38,7 @@
     
         checker($to, $from , $date ,$custom, $last );
 
-    }while($last++ < 5);       
+    }while($last++ < 75);       
 
 
 
